@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-01-14 04:20:29
+/* Smarty version 3.1.30, created on 2017-01-14 06:19:31
   from "G:\nginx\html\GodZmooc\vendor\smarty\demo\templates\index.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5879a70d3218c2_03830297',
+  'unifunc' => 'content_5879c2f350a5f8_04055040',
   'has_nocache_code' => true,
   'file_dependency' => 
   array (
     'a2cfbd281a256bae4759a04a1424c1e27704bd4b' => 
     array (
       0 => 'G:\\nginx\\html\\GodZmooc\\vendor\\smarty\\demo\\templates\\index.tpl',
-      1 => 1470541608,
+      1 => 1484374768,
       2 => 'file',
     ),
   ),
@@ -22,13 +22,13 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:footer.tpl' => 1,
   ),
 ),false)) {
-function content_5879a70d3218c2_03830297 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5879c2f350a5f8_04055040 (Smarty_Internal_Template $_smarty_tpl) {
 if (!is_callable('smarty_modifier_capitalize')) require_once 'G:\\nginx\\html\\GodZmooc\\vendor\\smarty\\libs\\plugins\\modifier.capitalize.php';
 if (!is_callable('smarty_modifier_date_format')) require_once 'G:\\nginx\\html\\GodZmooc\\vendor\\smarty\\libs\\plugins\\modifier.date_format.php';
 if (!is_callable('smarty_function_html_select_date')) require_once 'G:\\nginx\\html\\GodZmooc\\vendor\\smarty\\libs\\plugins\\function.html_select_date.php';
 if (!is_callable('smarty_function_html_select_time')) require_once 'G:\\nginx\\html\\GodZmooc\\vendor\\smarty\\libs\\plugins\\function.html_select_time.php';
 if (!is_callable('smarty_function_html_options')) require_once 'G:\\nginx\\html\\GodZmooc\\vendor\\smarty\\libs\\plugins\\function.html_options.php';
-$_smarty_tpl->compiled->nocache_hash = '178995879a70d137be4_72761616';
+$_smarty_tpl->compiled->nocache_hash = '166665879c2f33ac943_08383372';
 $_smarty_tpl->smarty->ext->configLoad->_loadConfigFile($_smarty_tpl, "test.conf", "setup", 0);
 ?>
 
@@ -54,16 +54,11 @@ $_smarty_tpl->smarty->ext->configLoad->_loadConfigFile($_smarty_tpl, "test.conf"
     Example of accessing server environment variable SERVER_NAME: <?php echo $_SERVER['SERVER_NAME'];?>
 
 
-    The value of {$Name} is <b><?php echo '/*%%SmartyNocache:178995879a70d137be4_72761616%%*/<?php echo $_smarty_tpl->tpl_vars[\'Name\']->value;?>
-/*/%%SmartyNocache:178995879a70d137be4_72761616%%*/';?>
+    The value of {{$Name} is <b><?php echo '/*%%SmartyNocache:166665879c2f33ac943_08383372%%*/<?php echo $_smarty_tpl->tpl_vars[\'Name\']->value;?>
+/*/%%SmartyNocache:166665879c2f33ac943_08383372%%*/';?>
 </b>
 
 variable modifier example of {$Name|upper}
-
-<b><?php echo '/*%%SmartyNocache:178995879a70d137be4_72761616%%*/<?php echo strtoupper($_smarty_tpl->tpl_vars[\'Name\']->value);?>
-/*/%%SmartyNocache:178995879a70d137be4_72761616%%*/';?>
-</b>
-
 
 An example of a section loop:
 

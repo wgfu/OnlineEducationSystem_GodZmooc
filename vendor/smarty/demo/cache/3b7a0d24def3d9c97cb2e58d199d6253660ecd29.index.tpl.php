@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-01-14 04:27:45
+/* Smarty version 3.1.30, created on 2017-01-14 06:19:31
   from "G:\nginx\html\GodZmooc\vendor\smarty\demo\templates\index.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5879a8c1a86da1_03182971',
+  'unifunc' => 'content_5879c2f3662a50_40646827',
   'has_nocache_code' => true,
   'file_dependency' => 
   array (
     'a2cfbd281a256bae4759a04a1424c1e27704bd4b' => 
     array (
       0 => 'G:\\nginx\\html\\GodZmooc\\vendor\\smarty\\demo\\templates\\index.tpl',
-      1 => 1470541608,
+      1 => 1484374768,
       2 => 'file',
     ),
     '192a79b2a9e6e0ff6a610658ee48636ad8968a27' => 
@@ -30,7 +30,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   ),
   'cache_lifetime' => 120,
 ),true)) {
-function content_5879a8c1a86da1_03182971 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5879c2f3662a50_40646827 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
 <HTML>
@@ -47,20 +47,16 @@ function content_5879a8c1a86da1_03182971 (Smarty_Internal_Template $_smarty_tpl)
     <b>        
         Title: Welcome To Smarty!
         </b>
-    The current date and time is 2017-01-14 04:27:45
+    The current date and time is 2017-01-14 06:19:31
 
     The value of global assigned variable $SCRIPT_NAME is /GodZmooc/vendor/smarty/demo/index.php
 
     Example of accessing server environment variable SERVER_NAME: localhost
 
-    The value of {$Name} is <b><?php echo $_smarty_tpl->tpl_vars['Name']->value;?>
+    The value of {{$Name} is <b><?php echo $_smarty_tpl->tpl_vars['Name']->value;?>
 </b>
 
 variable modifier example of {$Name|upper}
-
-<b><?php echo strtoupper($_smarty_tpl->tpl_vars['Name']->value);?>
-</b>
-
 
 An example of a section loop:
 
@@ -168,9 +164,9 @@ This is an example of the html_select_time function:
 <option value="01">01</option>
 <option value="02">02</option>
 <option value="03">03</option>
-<option value="04" selected="selected">04</option>
+<option value="04">04</option>
 <option value="05">05</option>
-<option value="06">06</option>
+<option value="06" selected="selected">06</option>
 <option value="07">07</option>
 <option value="08">08</option>
 <option value="09">09</option>
@@ -198,7 +194,7 @@ This is an example of the html_select_time function:
 <option value="16">16</option>
 <option value="17">17</option>
 <option value="18">18</option>
-<option value="19">19</option>
+<option value="19" selected="selected">19</option>
 <option value="20">20</option>
 <option value="21">21</option>
 <option value="22">22</option>
@@ -206,7 +202,7 @@ This is an example of the html_select_time function:
 <option value="24">24</option>
 <option value="25">25</option>
 <option value="26">26</option>
-<option value="27" selected="selected">27</option>
+<option value="27">27</option>
 <option value="28">28</option>
 <option value="29">29</option>
 <option value="30">30</option>
@@ -272,7 +268,7 @@ This is an example of the html_select_time function:
 <option value="28">28</option>
 <option value="29">29</option>
 <option value="30">30</option>
-<option value="31">31</option>
+<option value="31" selected="selected">31</option>
 <option value="32">32</option>
 <option value="33">33</option>
 <option value="34">34</option>
@@ -286,7 +282,7 @@ This is an example of the html_select_time function:
 <option value="42">42</option>
 <option value="43">43</option>
 <option value="44">44</option>
-<option value="45" selected="selected">45</option>
+<option value="45">45</option>
 <option value="46">46</option>
 <option value="47">47</option>
 <option value="48">48</option>
